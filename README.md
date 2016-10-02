@@ -24,11 +24,14 @@ It was initially developed for a talk on DevFest London in 2016.
 # Download the app's code
 $ go get github.com/ernesto-jimenez/devfest-london-2016
 
-# Deploy your app
+# Go to the app's folder
+$ cd $GOPATH/src/github.com/ernesto-jimenez/devfest-london-2016
+
+# Deploy your app using appcfg.py from the App Engine SDK
 $ appcfg.py update \
     --application [ YOUR PROJECT ID ] \
     -E TOKEN:[ YOUR SLACK TOKEN ] \
-    -E :[ YOUR TOKEN ] \
+    -E TRANSLATE_KEY:[ YOUR TRANSLATE API KEY ] \
     app.yaml
 ```
 
