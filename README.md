@@ -9,8 +9,12 @@ It was initially developed for a talk on DevFest London in 2016.
 
 ## Requirements
 
-1. Install [Go][go].
-2. Install the [Go App Engine SDK][sdk].
+In order to run this app, you need to:
+
+* Install [Go][go].
+* Install the [Go App Engine SDK][sdk].
+* Have a [Google Cloud](https://cloud.google.com/) account with billing enabled.
+* Have a [Slack team](https://slack.com) you can install apps on.
 
 ## Deploying and installing the application
 
